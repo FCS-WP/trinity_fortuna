@@ -1,0 +1,28 @@
+.pickup-form {
+  .elementor-form {
+    .elementor-form-fields-wrapper {
+      position: relative;
+      .elementor-field-type-submit {
+        @include desktop {
+          position: absolute;
+          right: 0;
+          top: -18px;
+        }
+
+        button {
+          padding: 10px;
+          .elementor-button-content-wrapper {
+            flex-direction: column;
+            gap: 0px;
+            .elementor-button-icon {
+              font-size: 48px;
+            }
+            .elementor-button-text {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
