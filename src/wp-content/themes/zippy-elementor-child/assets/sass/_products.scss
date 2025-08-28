@@ -1,0 +1,32 @@
+.custom-items-services {
+  position: relative;
+  .item-image {
+    .elementor-widget-container {
+      img {
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        @include desktop {
+          top: -70px;
+        }
+      }
+    }
+  }
+  .item-info {
+    border: 1px solid #000;
+    padding: 70px 15px;
+    background-color: white;
+    height: 100%;
+    .custom-product-name {
+      min-height: 48px;
+      height: 48px;
+      padding: 0 15px;
+    }
+    .product_title {
+      min-height: 48px;
+      height: 48px;
+    }
+  }
+}
